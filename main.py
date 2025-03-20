@@ -26,34 +26,20 @@ def image_as_link(image_url, link_url, caption=""):
 gallery_items = [
     {
         "image": "https://picsum.photos/400/300?random=1",
-        "link": "https://www.google.com",
-        "caption": "Google"
+        "link": "https://claude.site/artifacts/3b10173f-05b4-4f6f-bf56-d3956b57407d",
+        "caption": "Artefato 0"
     },
     {
         "image": "https://picsum.photos/400/300?random=2",
-        "link": "https://www.youtube.com",
-        "caption": "YouTube"
+        "link": "https://claude.site/artifacts/e94054e6-3046-474c-b2c5-864a50f724fb",
+        "caption": "Artefato 1"
     },
     {
         "image": "https://picsum.photos/400/300?random=3",
-        "link": "https://www.wikipedia.org",
-        "caption": "Wikipedia"
-    },
-    {
-        "image": "https://picsum.photos/400/300?random=4",
-        "link": "https://www.github.com",
-        "caption": "GitHub"
-    },
-    {
-        "image": "https://picsum.photos/400/300?random=5",
-        "link": "https://www.twitter.com",
-        "caption": "Twitter"
-    },
-    {
-        "image": "https://picsum.photos/400/300?random=6",
-        "link": "https://www.reddit.com",
-        "caption": "Reddit"
+        "link": "https://claude.site/artifacts/f8eea9dc-42bb-45c5-ad72-1fec23dda11a",
+        "caption": "Artefato 2"
     }
+   
 ]
 
 # Alternativa usando uma área colorida clicável
