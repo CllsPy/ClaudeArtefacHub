@@ -89,17 +89,17 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Layout para áreas coloridas
-area_cols = st.columns(len(color_areas))
-for i, area in enumerate(color_areas):
-    with area_cols[i]:
-        st.markdown(
-            f"""
-            <a href="{area['link']}" target="_blank" class="area-link" style="background-color: {area['color']}">
-                {area['text']}
-            </a>
-            """,
-            unsafe_allow_html=True
-        )
+# area_cols = st.columns(len(color_areas))
+# for i, area in enumerate(color_areas):
+#     with area_cols[i]:
+#         st.markdown(
+#             f"""
+#             <a href="{area['link']}" target="_blank" class="area-link" style="background-color: {area['color']}">
+#                 {area['text']}
+#             </a>
+#             """,
+#             unsafe_allow_html=True
+#         )
 
 # Configurações da aplicação
 with st.sidebar:
