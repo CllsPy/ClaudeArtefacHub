@@ -61,13 +61,13 @@ for i, item in enumerate(gallery_items):
 
 # Áreas coloridas clicáveis
 
-'''
-color_areas = [
-    {"color": "#FF6B6B", "link": "https://www.netflix.com", "text": "Netflix"},
-    {"color": "#4ECDC4", "link": "https://www.spotify.com", "text": "Spotify"},
-    {"color": "#FFE66D", "link": "https://www.amazon.com", "text": "Amazon"}
-]
-'''
+
+# color_areas = [
+#     {"color": "#FF6B6B", "link": "https://www.netflix.com", "text": "Netflix"},
+#     {"color": "#4ECDC4", "link": "https://www.spotify.com", "text": "Spotify"},
+#     {"color": "#FFE66D", "link": "https://www.amazon.com", "text": "Amazon"}
+# ]
+
 # CSS para áreas clicáveis
 st.markdown("""
 <style>
